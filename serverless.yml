@@ -1,0 +1,27 @@
+service: cute-cats
+
+custom: 
+  stage: dev #Configure your stage if you want
+  region: us-west-2 #Configure your AWS region if you want
+  profile: personal #Configure your AWS profile if you want
+
+provider:
+  name: aws
+  runtime: python3.6
+  stage: ${self:custom.stage}
+  region: ${self:custom.region}
+  profile: ${self:custom.profile}
+  memorySize: 256
+  timeout: 300
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - logs:*
+      Resource: [
+        "*"
+      ]
+
+functions:
+  cute-cats:
+    name: cute-cats
+    handler: app.handler
