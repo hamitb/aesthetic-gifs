@@ -1,2 +1,3 @@
 .vscode/
 deps/
+__pycache__/
