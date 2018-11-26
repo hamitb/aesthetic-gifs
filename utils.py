@@ -15,6 +15,9 @@ def get_html(gif_url, width, height):
                 <img src="https://media.giphy.com/media/MU5rUkHwnEWppqwExa/giphy.gif" class="thunder" alt="thunder">
             </div>
             <iframe src="{gif_url}" width="{width}" height="{height}" frameBorder="0" class="giphy-embed gif-container" allowFullScreen></iframe>
+            <a href="https://github.com/hamitb" class="github-link">
+                <img src="https://media.giphy.com/media/fCTqwThlbodeP5s607/giphy.gif" class="what" alt="what">
+            </a>
         </div>
     </body>
     </html>
@@ -54,10 +57,14 @@ def get_css():
         bottom: 5px;
         right: 205px;
     }
+    .container .github-link .what {
+        width: 40px;
+        height: 40px;
+    }
     .container .gif-container {
         display: block;
         margin: 50px auto;
-        border: 30px solid white;
+        border: 30px solid #f000ff;
     }
     .container .title .title-big {
         background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
