@@ -21,9 +21,9 @@ Resources:
             Runtime: python3.6
             Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
                 Variables:
-                    thundra_agent_lambda_report_rest_baseUrl: https://api.thundra.io/v1
-                    thundra_apiKey: c8696988-190b-4d2c-8d23-7dc9844e198f
-
+                  giphy_api_key: 9z45C5QgbhbPo32cY55cyHuB8iVSHhV4
+                  giphy_tag: vaporwave
+                  gif_width: 800
             Events:
                 HelloWorld:
                     Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
