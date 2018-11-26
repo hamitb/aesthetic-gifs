@@ -1,4 +1,4 @@
-service: cute-cats
+service: vaporwave-gifs
 
 custom: 
   stage: dev #Configure your stage if you want
@@ -13,6 +13,10 @@ provider:
   profile: ${self:custom.profile}
   memorySize: 256
   timeout: 300
+  environment:
+    giphy_api_key: 9z45C5QgbhbPo32cY55cyHuB8iVSHhV4
+    giphy_tag: vaporwave
+    gif_width: 800
   iamRoleStatements:
     - Effect: Allow
       Action:
@@ -22,6 +26,6 @@ provider:
       ]
 
 functions:
-  cute-cats:
-    name: cute-cats
+  vaporwave-gifs:
+    name: vaporwave-gifs
     handler: app.handler
