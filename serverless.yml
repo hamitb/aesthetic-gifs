@@ -3,7 +3,7 @@ service: vaporwave-gifs
 custom: 
   stage: dev #Configure your stage if you want
   region: us-west-2 #Configure your AWS region if you want
-  profile: personal #Configure your AWS profile if you want
+  profile: default #Configure your AWS profile if you want
 
 provider:
   name: aws
@@ -15,7 +15,7 @@ provider:
   timeout: 300
   environment:
     giphy_api_key: 9z45C5QgbhbPo32cY55cyHuB8iVSHhV4
-    giphy_tag: vaporwave
+    giphy_tag: aesthetics
     gif_width: 800
   iamRoleStatements:
     - Effect: Allow

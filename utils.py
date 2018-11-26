@@ -15,7 +15,7 @@ def get_html(gif_url, width, height):
                 <img src="https://media.giphy.com/media/MU5rUkHwnEWppqwExa/giphy.gif" class="thunder" alt="thunder">
             </div>
             <iframe src="{gif_url}" width="{width}" height="{height}" frameBorder="0" class="giphy-embed gif-container" allowFullScreen></iframe>
-            <a href="https://github.com/hamitb" class="github-link">
+            <a href="https://github.com/hamitb/aesthetic-gifs" class="github-link">
                 <img src="https://media.giphy.com/media/fCTqwThlbodeP5s607/giphy.gif" class="what" alt="what">
             </a>
         </div>
