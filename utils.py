@@ -6,7 +6,7 @@ def get_html(gif_url, width, height):
     <head>
         <meta charset="UTF-8">
         <style>{css}</style>
-        <title>title</title>
+        <title>A E S T H E T I C S</title>
     </head>
     <body>
         <div class="container">
