@@ -24,6 +24,7 @@ Resources:
                   giphy_api_key: 9z45C5QgbhbPo32cY55cyHuB8iVSHhV4
                   giphy_tag: aesthetics
                   gif_width: 800
+                  default_gif_id: 3oz8xZ1t7hxPfe19M4
             Events:
                 HelloWorld:
                     Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api

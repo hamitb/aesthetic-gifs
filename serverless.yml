@@ -17,6 +17,7 @@ provider:
     giphy_api_key: 9z45C5QgbhbPo32cY55cyHuB8iVSHhV4
     giphy_tag: aesthetics
     gif_width: 800
+    default_gif_id: 3oz8xZ1t7hxPfe19M4
   iamRoleStatements:
     - Effect: Allow
       Action:
